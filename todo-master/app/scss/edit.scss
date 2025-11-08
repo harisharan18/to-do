@@ -1,0 +1,28 @@
+@import "helpers";
+
+.material-icons {
+  font-size: 22px;
+}
+
+.task__delete:hover {
+  color: $red;
+}
+
+.task__input {
+  display: none;
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: $white;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: $gray2;
+
+  &:focus {
+    border-color: $border;
+  }
+}
+
